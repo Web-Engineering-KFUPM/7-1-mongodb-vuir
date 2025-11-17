@@ -118,7 +118,7 @@
          major: String
       });
       const Student = mongoose.model("Student", studentSchema);
-      - Run server: node server.js and go to mongo cloud to see DB schema in test->students.
+ *    - Run server: node server.js and go to mongo cloud to see DB schema in test->students.
  * 
  * =====================================================
  * TODO-3 Create Document
@@ -170,7 +170,7 @@
 import mongoose from "mongoose";
 
 // establish connection
-
+mongoose.connect("mongodb+srv://s202276840DB:yVBSBFui8xK8Oe0e@cluster0.7dqvoft.mongodb.net/")
 
 // define schema
 
